@@ -1,0 +1,111 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  form {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+    background:#359381;
+    font-size: 1.5em;
+    color:white;
+  }
+  
+  .column {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .input-box {
+    margin-bottom: 15px;
+  }
+  
+  input[type="text"],
+  input[type="number"],
+  input[type="date"],
+  input[type="file"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  label {
+    font-weight: bold;
+  }
+  
+  h4 {
+    margin-top: 15px;
+    background:#359381;
+    font-size: 1.3em;
+    color:white;
+  }
+  
+  
+  label input[type="radio"] {
+    margin-right: 5px;
+  }
+  
+  
+  input[type="submit"] {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  table, th, td {
+    border: 1px solid #ccc;
+  }
+  
+  th, td {
+    padding: 8px;
+    text-align: left;
+  }
+
+  th{
+    padding: 8px;
+    text-align: left;
+    background:#359381;
+    font-size: 20px;
+    color:white;
+  }
+  
+  
+  h2 {
+    margin-top: 20px;
+    background: transparent;
+    font-size: 1.5em;
+    color:#359381;
+    text-align: center;
+  }
+  
+  p {
+    margin-top: 15px;
+  }
+  
+  br {
+    margin-bottom: 10px;
+  }
+  

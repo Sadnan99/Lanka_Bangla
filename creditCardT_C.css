@@ -1,0 +1,109 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #359381;
+    color: #fff;
+}
+
+p {
+    margin-top: 10px;
+    line-height: 1.5;
+}
+
+.table-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.table {
+    border-collapse: collapse;
+    width: 48%;
+    border: 1px solid #359381;
+    margin-right: 10px;
+}
+
+.table th,
+.table td {
+    border: 1px solid #359381;
+    padding: 8px;
+    text-align: left;
+}
+
+.table th {
+    background-color: #f0f0f0;
+    font-weight: bold;
+}
+
+.table input[type="file"] {
+    width: 100%;
+    padding: 6px;
+    box-sizing: border-box;
+}
+
+.image-preview {
+    margin-top: 10px;
+    max-width: 100%;
+}
+
+.label {
+    display: block;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+/* Adjust the preview size of uploaded images */
+.image-preview img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-top: 10px;
+}
+
+/* Additional styling for file input */
+input[type="file"] {
+    border: none;
+    background-color: #f0f0f0;
+    padding: 4px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+input[type="file"]:hover {
+    background-color: #e0e0e0;
+}
+
+.input-container {
+    display: flex;
+    align-items: center;
+}
+
+.input-container label {
+    margin-right: 10px;
+}
+.form-input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+.form-btn {
+    display: inline-block;
+    padding: 8px 15px;
+    background-color: #359381;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.form-btn:hover {
+    background-color: #359381;
+}

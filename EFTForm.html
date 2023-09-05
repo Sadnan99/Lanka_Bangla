@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="EFTForm.css" />
+  </head>
+  <body>
+    <section class="container">
+      <header>Electronic Fund Transfer (EFT) Enrollment Form</header>
+      <form action="#" class="form">
+        <div class="column">
+            <div class="input-box">
+              <label>Client Code</label>
+              <input type="number" required />
+            </div>
+            <div class="input-box">
+              <label>Date:</label>
+              <input type="number"/>
+            </div>
+          </div>
+
+          <div class="column">
+            <div class="input-box">
+              <label>Client Name:</label>
+              <input type="text" required />
+            </div>
+            <div class="input-box">
+              <label>Mobile:</label>
+              <input type="number" placeholder=" "/>
+            </div>
+          </div>
+
+          <br>
+       
+          <p>I/We do hereby authorize LBSL, to register the following Bank Account for the purpose of the electronic fund transfer(EFT). By signing below I/we agree to enroll in the electronic funds transfer service.</p>
+          
+          <br>
+
+          <div class="input-box">
+            <label>Bank Name:</label>
+            <input type="text" required />
+          </div>
+          <div class="input-box">
+            <label>Bank A/C:</label>
+            <input type="text" required />
+          </div>
+          <div class="input-box">
+            <label>Branch Name:</label>
+            <input type="text" required />
+          </div>
+          <div class="input-box">
+              <label>Routing Number:</label>
+              <input type="number" required />
+            </div>
+          
+            <br>
+
+            <p>I/We certify that I/We am/are the owner or authorized signatory for this account.</p>
+            <p>I have also read and agree to the Terms and Conditions that follow.</p>
+
+            <br>
+       
+            <label for="officerSignature">Signature of First Account Holder:</label>
+            <input type="file" id="officerSignature" name="officerSignature" accept="image/*" required>
+            <div class="image-preview" id="officerSignaturePreview"></div>
+        
+        <br>
+
+        <label for="officerSignature">Signature Verified By:</label>
+            <input type="file" id="officerSignature" name="officerSignature" accept="image/*" required>
+            <div class="image-preview" id="officerSignaturePreview"></div>
+        
+        <br>
+        
+        <div class="input-box">
+          <label>Posted By:</label>
+          <input type="text" required />
+        </div>
+
+
+        <div class="input-box">
+            <label>Posting Verified By:</label>
+            <input type="text" required />
+          </div>
+
+          <br>
+
+          <h4>TERMS AND CONDITIONS</h4>
+          <ol>
+            <li>LBSL will transfer funds electronically from the customer's trading account to customer Bank account registers on thos EFT Enrollment Form.</li>
+            <li>It is customer's sole responsibility to ensure that tis bank account information is correct and accurate. LBSL is not responsible for any payment processing errors or fees incurred if you do not provide accurate account information.</li>
+            <li>LBSL reserves the right to reject EFT EnrollmentApplication Form.</li>
+            <li>Any changes made to this EFT Enrollment Form must be updated in person at the LBSL office. This mat require new EFT enrollment application process.</li>
+            <li>Terms and conditions may be changed without prior notice due to the amendment of relevant regulatory policy by the pertinent Government regulatory body such as Securities and Exchange Commission.</li>
+            <li>EFT services will be dicontinued if:
+                <ol>
+                    <li>The registered account is not active or closed.</li>
+                    <li>The registered account is not active or closed.</li>
+                </ol>
+            </li>
+            <li>All questions and concerns regarding the EFT service should be directed to the CEO and Director of LBSL.</li>
+            <li>LBSL is not responsible for technical error or difficulties, beyond LBSL's control, that may arise during the process of Electronic Fund Transfer.</li>
+            <li>The account holder has to annex copy of cheque leaf of the account or bank statement or bank certificate of the account with EFT FORM.</li>
+        </ol>
+           
+        <br>
+
+        <h4>SIGNATURE CARD</h4>
+        <div class="input-box">
+          <label>Account Number:</label>
+          <input type="text" required />
+        </div>
+
+        <br>
+
+        <label for="officerSignature">First Applicant:</label>
+            <input type="file" id="officerSignature" name="officerSignature" accept="image/*" required>
+            <div class="image-preview" id="officerSignaturePreview"></div>
+        
+        <br>
+
+        <label for="officerSignature">Second Applicant:</label>
+            <input type="file" id="officerSignature" name="officerSignature" accept="image/*" required>
+            <div class="image-preview" id="officerSignaturePreview"></div>
+
+            <br>
+
+            <label for="officerSignature">Nominee</label>
+            <input type="file" id="officerSignature" name="officerSignature" accept="image/*" required>
+            <div class="image-preview" id="officerSignaturePreview"></div>
+        
+        <br>
+
+        <label for="officerSignature">Power of Attorney</label>
+            <input type="file" id="officerSignature" name="officerSignature" accept="image/*" required>
+            <div class="image-preview" id="officerSignaturePreview"></div>
+
+            <br>
+        
+        <div class="input-box">
+          <label>BO ID No.</label>
+          <input type="number" required />
+        </div>
+            <br>
+        
+            
+<table>
+    <tr>
+      <th>Status</th>
+      <th>Name of Account Holder (In Block Letter)</th>
+    </tr>
+    <tr>
+      <td>Individual</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Joint</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Authorize POA</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Nominee</td>
+      <td></td>
+    </tr>
+  </table>
+
+  <br>
+
+  Select a PDF file to upload:
+  <input type="file" name="pdfFile" id="pdfFile">
+  <input type="submit" value="Upload Signature" name="submit">
+
+  Select a PDF file to upload:
+  <input type="file" name="pdfFile" id="pdfFile">
+  <input type="submit" value="Upload Signature" name="submit">
+
+  Select a PDF file to upload:
+  <input type="file" name="pdfFile" id="pdfFile">
+  <input type="submit" value="Upload Signature" name="submit">
+
+  Select a PDF file to upload:
+  <input type="file" name="pdfFile" id="pdfFile">
+  <input type="submit" value="Upload Signature" name="submit">
+
+  <br><br>
+
+  <table>
+    <tr>
+      <th>SL.</th>
+      <th>Product Type</th>
+      <th></th>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>LBSL Premium</td>
+      <td><input type="checkbox"></td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>LBSL IPO</td>
+      <td><input type="checkbox"></td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>LBSL Halal</td>
+      <td><input type="checkbox"></td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>LBSL Easy Investment Plan</td>
+      <td><input type="checkbox"></td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td>LBSL Beginner</td>
+      <td><input type="checkbox"></td>
+    </tr>
+    <tr>
+      <td>6</td>
+      <td>Others:</td>
+      <td><input type="checkbox"></td>
+    </tr>
+  </table>
+
+  <br>
+
+  <table border="1">
+    <thead>
+        <tr>
+            <th>Account Booking Channel</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>
+                Source Name: ..........................................<br>
+                Source Code: <textarea></textarea><br>
+                Channel: .....................................................................
+            </td>
+        </tr>
+    </tbody>
+</table>
+  
+  
+      </form>
+    </section>
+  </body>
+</html>

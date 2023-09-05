@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="customerForm.css">
+    <title>Customer Account Information Form</title>
+</head>
+<body>
+    <h1>Customer Account Information</h1>
+
+    <form action="#" method="post" enctype="multipart/form-data">
+        <!-- Add the rest of the form fields here -->
+        
+        <h2>Account Information:</h2>
+        <label for="accountType">Account Type:</label>
+        <select id="accountType" name="accountType" required>
+            <option value="">Select Account Type</option>
+            <option value="Savings">Savings</option>
+            <option value="Current">Current</option>
+            <!-- Add more account types as needed -->
+        </select>
+
+        <label for="clientCode">Client Code:</label>
+        <input type="text" id="clientCode" name="clientCode" required>
+
+        <label for="cashMargin">Date:</label>
+        <input type="date" id="cashMargin" name="cashMargin" required>
+
+        <label for="linkCode">Link Code:</label>
+        <input type="text" id="linkCode" name="linkCode" required>
+
+        <!-- First Account Holder Signature -->
+        <h2>First Account Holder</h2>
+        <label for="firstName">Name of the Customer:</label>
+        <input type="text" id="firstName" name="firstName" required>
+
+        <label for="fatherName">Father's/Husband's Name:</label>
+        <input type="text" id="fatherName" name="fatherName" required>
+
+        <label for="motherName">Mother's Name:</label>
+        <input type="text" id="motherName" name="motherName" required>
+
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob" name="dob" required>
+
+        <label>Gender:</label>
+        <input type="radio" id="male" name="sex" value="Male" required>
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="sex" value="Female" required>
+        <label for="female">Female</label>
+
+        <label for="presentAddress">Present Address:</label>
+        <textarea id="presentAddress" name="presentAddress" rows="4" required></textarea>
+
+        <label for="nationality">Nationality:</label>
+        <input type="text" id="nationality" name="nationality" required>
+
+        <label for="mobile">Mobile:</label>
+        <input type="tel" id="mobile" name="mobile" required>
+
+        <label for="telephone">Tel #:</label>
+        <input type="tel" id="telephone" name="telephone">
+
+        <label for="permanentAddress">Permanent Address:</label>
+        <textarea id="permanentAddress" name="permanentAddress" rows="4" required></textarea>
+
+        <label for="permanentTelephone">Tel:</label>
+        <input type="tel" id="permanentTelephone" name="permanentTelephone">
+
+        <label for="email">E-mail ID:</label>
+        <input type="email" id="email" name="email">
+
+        <label for="occupation">Occupation:</label>
+        <input type="text" id="occupation" name="occupation">
+
+        <label for="eTin">E-Tin #:</label>
+        <input type="text" id="eTin" name="eTin">
+
+        <!-- Signature for First Account Holder -->
+        <label for="firstAccountSignature">First Account Holder Signature:</label>
+        <input type="file" id="firstAccountSignature" name="firstAccountSignature" accept="image/*" required>
+        <div class="image-preview" id="firstSignaturePreview"></div>
+
+        <!-- First Account Holder Picture -->
+        <label for="firstAccountPicture">First Account Holder Picture:</label>
+        <input type="file" id="firstAccountPicture" name="firstAccountPicture" accept="image/*" required>
+        <div class="image-preview" id="firstPicturePreview"></div>
+
+        <!-- Joint Account Holder Signature -->
+        <h2>Joint Account Holder</h2>
+        <label for="jointFirstName">Name of Joint Account Holder:</label>
+        <input type="text" id="jointFirstName" name="jointFirstName" required>
+
+        <label for="jointFatherName">Father's/Husband's Name:</label>
+        <input type="text" id="jointFatherName" name="jointFatherName" required>
+
+        <label for="jointMotherName">Mother's Name:</label>
+        <input type="text" id="jointMotherName" name="jointMotherName" required>
+
+        <label for="jointDob">Date of Birth:</label>
+        <input type="date" id="jointDob" name="jointDob" required>
+
+        <label>Gender:</label>
+        <input type="radio" id="jointMale" name="jointSex" value="Male" required>
+        <label for="jointMale">Male</label>
+        <input type="radio" id="jointFemale" name="jointSex" value="Female" required>
+        <label for="jointFemale">Female</label>
+
+        <label for="jointPresentAddress">Present Address:</label>
+        <textarea id="jointPresentAddress" name="jointPresentAddress" rows="4" required></textarea>
+
+        <label for="jointNationality">Nationality:</label>
+        <input type="text" id="jointNationality" name="jointNationality" required>
+
+        <label for="jointMobile">Mobile:</label>
+        <input type="tel" id="jointMobile" name="jointMobile" required>
+
+        <label for="jointTelephone">Tel #:</label>
+        <input type="tel" id="jointTelephone" name="jointTelephone">
+
+        <label for="jointPermanentAddress">Permanent Address:</label>
+        <textarea id="jointPermanentAddress" name="jointPermanentAddress" rows="4" required></textarea>
+
+        <label for="jointPermanentTelephone">Tel:</label>
+        <input type="tel" id="jointPermanentTelephone" name="jointPermanentTelephone">
+
+        <label for="jointEmail">E-mail ID:</label>
+        <input type="email" id="jointEmail" name="jointEmail">
+
+        <label for="jointOccupation">Occupation:</label>
+        <input type="text" id="jointOccupation" name="jointOccupation">
+
+        <label for="jointETin">E-Tin #:</label>
+        <input type="text" id="jointETin" name="jointETin">
+
+        <!-- Signature for Joint Account Holder -->
+        <label for="jointAccountSignature">Joint Account Holder Signature:</label>
+        <input type="file" id="jointAccountSignature" name="jointAccountSignature" accept="image/*" required>
+        <div class="image-preview" id="jointSignaturePreview"></div>
+
+        <!-- Joint Account Holder Picture -->
+        <label for="jointAccountPicture">Joint Account Holder Picture:</label>
+        <input type="file" id="jointAccountPicture" name="jointAccountPicture" accept="image/*" required>
+        <div class="image-preview" id="jointPicturePreview"></div>
+
+        <!-- Authorized Person Information -->
+        <h2>Authorized Person Information</h2>
+        <!-- Authorized Person Fields (Name, Father's/Husband's Name, etc.) -->
+
+        <label for="authorizedName">Name of Authorized Person:</label>
+        <input type="text" id="authorizedName" name="authorizedName" required>
+
+        <label for="authorizedFatherName">Father's/Husband's Name:</label>
+        <input type="text" id="authorizedFatherName" name="authorizedFatherName" required>
+
+        <label for="authorizedDob">Date of Birth:</label>
+        <input type="date" id="authorizedDob" name="authorizedDob" required>
+
+        <label>Gender:</label>
+        <input type="radio" id="authorizedMale" name="authorizedSex" value="Male" required>
+        <label for="authorizedMale">Male</label>
+        <input type="radio" id="authorizedFemale" name="authorizedSex" value="Female" required>
+        <label for="authorizedFemale">Female</label>
+
+        <label for="authorizedAddress">Present Address:</label>
+        <textarea id="authorizedAddress" name="authorizedAddress" rows="4" required></textarea>
+
+        <label for="authorizedNationality">Nationality:</label>
+        <input type="text" id="authorizedNationality" name="authorizedNationality" required>
+
+        <label for="authorizedMobile">Mobile:</label>
+        <input type="tel" id="authorizedMobile" name="authorizedMobile" required>
+
+        <label for="authorizedTelephone">Tel #:</label>
+        <input type="tel" id="authorizedTelephone" name="authorizedTelephone">
+
+        <label for="authorizedPermanentAddress">Permanent Address:</label>
+        <textarea id="authorizedPermanentAddress" name="authorizedPermanentAddress" rows="4" required></textarea>
+
+        <label for="authorizedPermanentTelephone">Tel:</label>
+        <input type="tel" id="authorizedPermanentTelephone" name="authorizedPermanentTelephone">
+
+        <label for="authorizedEmail">E-mail ID:</label>
+        <input type="email" id="authorizedEmail" name="authorizedEmail">
+
+        <label for="authorizedOccupation">Occupation:</label>
+        <input type="text" id="authorizedOccupation" name="authorizedOccupation">
+
+        <label for="authorizedETin">E-Tin #:</label>
+        <input type="text" id="authorizedETin" name="authorizedETin">
+
+        <label for="authorizedBranchName">Branch Name:</label>
+        <input type="text" id="authorizedBranchName" name="authorizedBranchName" required>
+
+        <label for="authorizedRoutingNo">Routing No:</label>
+        <input type="text" id="authorizedRoutingNo" name="authorizedRoutingNo" required>
+
+        <!-- Signature for Authorized Person -->
+        <label for="authorizedSignature">Authorized Person Signature:</label>
+        <input type="file" id="authorizedSignature" name="authorizedSignature" accept="image/*" required>
+        <div class="image-preview" id="authorizedSignaturePreview"></div>
+
+        <label for="isStockExchange">Officer or Director or Sponsor Shareholder of any Stock Exchange Listed Comp:</label>
+        <input type="checkbox" id="isStockExchange" name="isStockExchange" value="yes">
+        <label for="isStockExchange">Yes</label>
+        <input type="checkbox" id="isNotStockExchange" name="isStockExchange" value="no">
+        <label for="isNotStockExchange">No</label>
+
+        <label for="stockExchangeName">Name of the Stock Exchange/Listed Company:</label>
+        <input type="text" id="stockExchangeName" name="stockExchangeName">
+
+        <h2>Branch Information:</h2>
+        <label for="branchName">Branch Name:</label>
+        <input type="text" id="branchName" name="branchName" required>
+
+        <label for="accountNumber">Account No:</label>
+        <input type="text" id="accountNumber" name="accountNumber" required>
+
+        <!-- Declaration -->
+        <h2>Declaration</h2>
+        <p>It is hereby declared that all the above-mentioned information in the customer account information form is true & valid.</p>
+
+        <!-- Signature for Officer/Manager/Branch In-charge -->
+        <label for="officerSignature">First Account Holder:</label>
+        <input type="file" id="officerSignature" name="officerSignature" accept="image/*" required>
+        <div class="image-preview" id="officerSignaturePreview"></div>
+
+        <label for="officerSignature">Second Account Holder:</label>
+        <input type="file" id="officerSignature" name="officerSignature" accept="image/*" required>
+        <div class="image-preview" id="officerSignaturePreview"></div>
+
+        <label for="officerSignature">Officer/Manager/Branch In-charge Signature:</label>
+        <input type="file" id="officerSignature" name="officerSignature" accept="image/*" required>
+        <div class="image-preview" id="officerSignaturePreview"></div>
+
+        <!-- Add a submit button to submit the form -->
+        <button type="submit">Submit</button>
+    </form>
+
+</body>
+</html>

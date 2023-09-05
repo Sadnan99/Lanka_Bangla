@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Value Added Service Form</title>
+<link rel="stylesheet" href="ValueForm.css" />
+</head>
+<body>
+
+
+
+<form id="valueAddedServiceForm">
+    <h1>Value Added Service</h1>
+    <div class="input-box">
+        <label>Investor ID:</label>
+        <input type="number" required />
+      </div>
+
+      <br>
+
+    <div class="input-box">
+        <label>Investor's Name:</label>
+        <input type="text" required />
+      </div> 
+
+      <br>
+
+    <div class="input-box">
+        <label>BO ID:</label>
+        <input type="number" required />
+      </div> 
+      
+      <br>
+
+    <div class="input-box">
+        <label>Email ID:</label>
+        <input type="text" required />
+      </div>
+      
+      <br>
+
+      <div class="input-box">
+        <label>Mobile No.:</label>
+        <input type="number" required />
+      </div> 
+
+      <br>
+
+      <div class="input-box">
+        <label>Internet Trading:</label>
+        <input type="number" required />
+      </div> 
+  <ul style="list-style-type:none">
+    <li>
+      <input type="checkbox" id="checkbox1" name="service1">
+      <label for="checkbox1">DSE</label>
+    </li>
+    <li>
+      <input type="checkbox" id="checkbox2" name="service2">
+      <label for="checkbox2">CSE</label>
+    </li>
+    <li>
+      <input type="checkbox" id="checkbox3" name="service3">
+      <label for="checkbox3">Order Management System</label>
+    </li>
+    <li>
+      <input type="checkbox" id="checkbox3" name="service3">
+      <label for="checkbox3">SMS Service</label>
+    </li>
+    <li>
+      <input type="checkbox" id="checkbox3" name="service3">
+      <label for="checkbox3">Email Service</label>
+    </li>
+  </ul>
+  
+  <br>
+   
+  <h4>Terms and Conditions:</h4>
+  <ol style="list-style-type:disc">
+    <li>User must maintain the credentials i.e. Login ID and Password for the value-added services strictly and LBSL
+        will not take any responsibility in case of any hacking or disclosure.</li>
+    <li>Order place online for internet trading can not be replaced over phone or email or verbally or SMS or any other
+        mode of communication.</li>
+    <li>The user must maintain the internet transactional compliance issuees. LBSL will not be liable for any
+        unauthorized and Non-compliance transaction made by user.</li>
+    <li>User can't have internet trading account for both the exchanges.</li>    
+    <li>For SMS services user must be subscriber of GP or Robi.</li>
+    <li>SMS push pull services changes are based on operator's conditions.</li>
+    <li>In case of email services, user must confirm that the provided mail must trust in mail not junk.</li>
+    <li>Order Management System will be applied by its term and condition when ever applicable.</li>        
+  </ol>
+
+  <br>
+  
+  <h4>Client's Signature and Date:</h4>
+  Select a PDF file to upload:
+  <input type="file" name="pdfFile" id="pdfFile">
+  <input type="submit" value="Upload Signature" name="submit">
+
+  <br><br>
+
+  <h4>LBSL Authority's Signature:</h4>
+  Select a PDF file to upload:
+  <input type="file" name="pdfFile" id="pdfFile">
+  <input type="submit" value="Upload Signature" name="submit"> 
+</form>
+
+</body>
+</html>

@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    padding: 20px;
+  }
+  
+
+form {
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+
+h1 {
+    margin-bottom: 10px;
+    background:#359381;
+    font-size: 1.5em;
+    color:white;
+    text-align:center;
+  }
+
+h4 {
+    margin-bottom: 10px;
+    background:#359381;
+    font-size: 1.2em;
+    color:white;
+  }
+  
+  
+  input[type="radio"] {
+    margin-right: 5px;
+  }
+  
+
+  ol {
+    margin-left: 20px;
+    margin-bottom: 15px;
+  }
+  
+  li {
+    margin-bottom: 10px;
+  }
+  
+
+  label {
+    display: inline-block;
+    margin-right: 15px;
+  }
+  
+
+  form > ol:not(:last-child) {
+    margin-bottom: 30px;
+  }
+  

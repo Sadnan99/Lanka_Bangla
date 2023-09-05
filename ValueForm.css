@@ -1,0 +1,99 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 20px;
+  }
+  
+
+  #valueAddedServiceForm {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+
+  .input-box {
+    margin-bottom: 15px;
+  }
+  
+  .input-box label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .input-box input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+
+  ul {
+    padding-left: 20px;
+  }
+  
+  li {
+    margin-bottom: 5px;
+  }
+
+
+  #pdfFile {
+    display: block;
+    margin-top: 5px;
+  }
+  
+
+  input[type="submit"] {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color:blue
+  }
+  
+
+  h1{
+    margin-bottom: 10px;
+  background:#359381;
+  font-size: 1.5em;
+  color:white;
+  text-align: center;
+  }
+
+  h4 {
+    margin-bottom: 10px;
+  }
+  
+
+  ol, ul {
+    margin-left: 20px;
+  }
+  
+
+  ol {
+    list-style-type: decimal;
+  }
+  
+  
+  @media screen and (max-width: 768px) {
+    .input-box input {
+      width: 100%;
+    }
+  }
+  

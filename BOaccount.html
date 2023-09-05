@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BO_Account</title>
+    <link rel="stylesheet" href="BOaccount.css">
+</head>
+<body>
+    <div class="container">
+        <h2>DEPOSITORY ACCOUNT APPLICATION</h2>
+        <form>
+            <div class="form-section">
+                <h2>APPLICANT DETAILS</h2>
+                <label for="applicationNo">Application No:</label>
+                <input type="text" id="applicationNo" name="applicationNo">
+                <label for="date">Date:</label>
+                <input type="text" id="date" name="date"><br><br>
+                <label for="boCategory">BO Category:
+                <input type="radio" id="regular" name="boCategory" value="Regular">Regular 
+                <input type="radio" id="omnibus" name="boCategory" value="Omnibus">Omnibus 
+                <input type="radio" id="clearing" name="boCategory" value="Clearing"> Clearing <br><br>
+                <label for="boType">BO Type:
+                <input type="radio" id="individual" name="boType" value="Individual">Individual
+                <input type="radio" id="company" name="boType" value="Company">Company  
+                <input type="radio" id="jointHolder" name="boType" value="Joint Holder">Joint Holder  
+            </div>
+            
+            <div class="form-section">
+                <h2>1. First Applicant</h2>
+                <!-- Fill in the input fields and labels here -->
+                <h4> Name in Full of Account</h4>
+                <p>
+                    Short Name of Account Holder (Insert full name starting with Title i.e. Mr./Mrs./Ms/Dr, abbreviate only if over
+                    30 characters)
+                </p>
+                <input type="text" id="applicationNo" name="applicationNo"><br><br>
+                <label for="firstName">Name of the Customer:</label>
+                <input type="text" id="applicationNo" name="applicationNo"><br><br>
+                <h4>In case of a Company/Firm/Statutory Body</h4>
+                <input type="text" id="firstName" name="firstName" required><br><br>
+
+                <label for="gender">BO Category:
+                <input type="radio" id="regular" name="gender" value="Regular"> Male 
+                <input type="radio" id="omnibus" name="gender" value="Omnibus">Female
+                <input type="radio" id="clearing" name="gender" value="Clearing">Others<br><br>
+                Father's/ Husband Name:<input type="text" id="applicationNo" name="applicationNo"><br><br>
+                Mother's Name:<input type="text" id="applicationNo" name="applicationNo"><br><br>
+
+
+            </div>
+            
+            <div class="form-section">
+                <h2>2. Contact Details</h2>
+                <!-- Fill in the input fields and labels here -->
+                    <label for="address">Address:</label>
+                    <input type="text" id="address" name="address">
+                    
+                    <label for="city">City:</label>
+                    <input type="text" id="city" name="city">
+                    
+                    <label for="postCode">Post Code:</label>
+                    <input type="text" id="postCode" name="postCode">
+                    
+                    <label for="state">State/Division:</label>
+                    <input type="text" id="state" name="state">
+                    
+                    <label for="country">Country:</label>
+                    <input type="text" id="country" name="country">
+                    
+                    <label for="telephone">Telephone:</label>
+                    <input type="text" id="telephone" name="telephone">
+                    
+                    <label for="mobile">Mobile:</label>
+                    <input type="text" id="mobile" name="mobile">
+                    
+                    <label for="phone">Phone:</label>
+                    <input type="text" id="phone" name="phone">
+                    
+                    <label for="fax">Fax:</label>
+                    <input type="text" id="fax" name="fax">
+                    
+                    <label for="email">Email:</label>
+                    <input type="text" id="email" name="email">
+            </div>
+            
+            <div class="form-section">
+                <h2>3. Passport Details</h2>
+                <!-- Fill in the input fields and labels here -->
+                <label for="passportNo">Passport No:</label>
+                <input type="text" id="passportNo" name="passportNo">
+    
+                <label for="issuePlace">Issue Place:</label>
+                <input type="text" id="issuePlace" name="issuePlace">
+    
+                <label for="issueDate">Issue Date:</label>
+                <input type="date" id="issueDate" name="issueDate">
+                
+                <label for="expiryDate">Expiry Date:</label>
+                <input type="date" id="expiryDate" name="expiryDate">
+
+            </div>
+
+            <div class="section">
+                <h2>4. Bank Details</h2>
+                <label for="bankName">Bank Name:</label>
+                <input type="text" id="bankName" name="bankName">
+                
+                <label for="branchName">Branch Name:</label>
+                <input type="text" id="branchName" name="branchName">
+                
+                <label for="accountNo">Account No:</label>
+                <input type="text" id="accountNo" name="accountNo">
+                
+                <label for="routingNo">Routing No:</label>
+                <input type="text" id="routingNo" name="routingNo"><br><br>
+                
+                <label for="electronicDividend">Electronic Dividend Credit:
+                <input type="radio" id="electronicDividendYes" name="electronicDividend" value="Yes">Yes
+                <input type="radio" id="electronicDividendNo" name="electronicDividend" value="No">No<br><br>
+                
+                
+                <label for="taxExemption">Tax Exemption if any:
+                <input type="radio" id="taxExemptionYes" name="taxExemption" value="Yes">Yes
+                <input type="radio" id="taxExemptionNo" name="taxExemption" value="No">No<br><br>
+                
+                
+                <label for="taxID">Tin/TAX ID:</label>
+                <input type="text" id="taxID" name="taxID"><br><br>
+            </div>
+            
+            <div class="section">
+                <h2>5. Others Information</h2>
+                <label for="residencyResident">Residency:
+                <input type="radio" id="residencyResident" name="residency" value="Resident">Resident  
+                <input type="radio" id="residencyNonResident" name="residency" value="Non Resident">Non Resident  <br><br>
+                
+                <label for="nationality">Nationality:</label>
+                <input type="text" id="nationality" name="nationality"><br><br>
+                
+                <label for="dateOfBirth">Date of Birth:</label>
+                <input type="date" id="dateOfBirth" name="dateOfBirth"><br><br>
+                
+                <label for="statementCycleCode">Statement Cycle Code:
+                <input type="radio" id="daily" name="statementCycleCode" value="Daily">Daily  
+                <input type="radio" id="weekly" name="statementCycleCode" value="Weekly">Weekly  
+                <input type="radio" id="fortnightly" name="statementCycleCode" value="Fortnightly">Fortnightly
+                <input type="radio" id="monthly" name="statementCycleCode" value="Monthly">Monthly
+                <input type="radio" id="other" name="statementCycleCode" value="Other">Other (Please Specify) <br><br> 
+                
+                
+                <label for="internalRefNo">Internal Ref. No (To be filled in by CDBL Partic):</label>
+                <input type="text" id="internalRefNo" name="internalRefNo"><br><br>
+                
+                <label for="companyInCase">In case of Company:</label>
+                <input type="text" id="companyInCase" name="companyInCase"><br><br>
+                
+                <label for="registrationNo">Registration No:</label>
+                <input type="text" id="registrationNo" name="registrationNo"><br><br>
+                
+                <label for="dateOfRegistration">Date of Registration:</label>
+                <input type="date" id="dateOfRegistration" name="dateOfRegistration"><br><br>
+            </div>
+            
+            <div class="section">
+                <h2>6. Joint Applicant (Second Account Holder)</h2>
+                
+                <label for="jointName">Name in Full:</label>
+                <input type="text" id="jointName" name="jointName"><br><br>
+                
+                <label for="jointShortName">Short Name of Account Holder:</label>
+                <input type="text" id="jointShortName" name="jointShortName"><br><br>
+                
+                <label for="jointTitle">Title i.e. Mr./Mrs./Ms:</label>
+                <input type="text" id="jointTitle" name="jointTitle">
+            </div>
+
+            <div class="section">
+                <h2>7. Account Link Request</h2>
+                
+                <label>Would you like to create a link to your existing Depository Account:
+                <input type="radio" id="linkYes" name="link" value="Yes">Yes 
+                <input type="radio" id="linkNo" name="link" value="No">No  <br><br>
+                
+                
+                <label for="depositoryBOCode">If yes, then please provide the Depository BO Account Code (8 Digits):</label>
+                <input type="text" id="depositoryBOCode" name="depositoryBOCode"><br><br>
+            </div>
+
+            <div class="section">
+                <h2>8. Nominees/Heirs</h2>
+                <p>If account holder(s) wish to continue nominate person(s) who will be entitled to receive securities outstanding in the account in the event of the death of the sole account holder/all the joint account holders, a separate nomination Form-23 must be filled up and signed by all account holders and the nominees giving names of nominees, relationship with first account holder, percentage distribution and contact details, if any nominee is a minor, guardian’s name, address, relationship with nominees has also to be provided.</p><br><br>
+            </div>
+            
+            <div class="section">
+                <h2>9. Power of Attorney (POA)</h2>
+                <p>If account holder(s) wish to give a Power of Attorney (POA) to someone to operate the account, a separate Form-20 must be filled up and signed by all account holders giving the name, contact details etc. of the POA holder and a POA document lodged with the form.</p><br><br>
+            </div>
+            
+            <div class="section">
+                <h2>10. To be filled in by the Stock Broker/Stock Exchange in case the application is for opening a Clearing Account</h2><br><br>
+                
+                <label>Exchange Name:
+                <input type="radio" id="exchangeDSE" name="exchange" value="DSE"> DSE
+                <input type="radio" id="exchangeCSE" name="exchange" value="CSE">CSE<br><br>
+                
+                <label for="tradingId">Trading Id:
+                <input type="text" id="tradingId" name="tradingId"><br><br>
+            </div>
+            
+            <div class="section">
+                <h2>11. Photograph</h2><br><br>
+                <label for="officerSignature">Recent Passport size pic 1st Applicant or Authorized Signatory in case of Ltd. Co.</label>
+                <input type="file" id="officerSignature" name="officerSignature" accept="image/*">
+                <div class="image-preview" id="officerSignaturePreview"></div><br><br>
+
+                <label for="officerSignature">2nd Applicant or Authorized Signatory in case of Ltd. Co.</label>
+                <input type="file" id="officerSignature" name="officerSignature" accept="image/*" >
+                <div class="image-preview" id="officerSignaturePreview"></div><br><br>
+
+                <label for="officerSignature">Authorized Signatory in case of Ltd. Co.</label>
+                <input type="file" id="officerSignature" name="officerSignature" accept="image/*" >
+                <div class="image-preview" id="officerSignaturePreview"></div><br><br>
+            </div>
+            
+            <div class="section">
+                <h2>12.Standing Instructions</h2>
+                <label>I/We authorize you to receive facsimile (fax) transfer instruction for delivery.</label>
+                <input type="radio" id="exchangeDSE" name="exchange" value="DSE">Yes  
+               <input type="radio" id="exchangeCSE" name="exchange" value="CSE"> No <br><br>
+            </div>
+
+            <div class="form-section">
+                <h2>13. DECLARATION</h2>
+                <p>
+                    The rules and regulations of the Depository and CDBL participant pertaining to an account which are in force now have been read by me/us and I/we have understood the same and I/we agree to abide by and to be bound by the rules as are in force from time to time for such account. I/We also declare that the particulars given by me/us are true to the best of my/our knowledge as on the date of making such application. I/We further agree that any false/misleading information given by me/us or suppression of any material fact will render my/our account liable for termination and further action.<br><br>
+                </p>
+            </div>
+
+            <table border="1">
+                <tr>
+                    <th>Applicant</th>
+                    <th>Name of applicant/Authorized signatories in case of ltd</th>
+                    <th>Signature with Date</th>
+                </tr>
+                <tr>
+                    <td>First Applicant Co.</td>
+                    <td></td>
+                    <td></td>
+                    
+                <tr>
+                        <td>Second Applicant</td>
+                        <td></td>
+                        <td></td>
+                </tr>
+                    <tr>
+                    <td>3rd Signatory (Ltd Co. Only)</td>
+                    <td></td><td></td>
+                </tr>
+                </tr>
+            </table>
+            
+            <div class="form-section"><br><br>
+                <h2>14. Special Instructions on operation of Joint Account</h2>
+                <!-- Fill in the input fields and labels here -->
+
+                <label>
+                    <input type="checkbox" name="operation" value="either_or_survivor">
+                    Either or Survivor
+                </label><br>
+        
+                <label>
+                    <input type="checkbox" name="operation" value="any_one_can_operate">
+                    Any one can operate
+                </label><br>
+        
+                <label>
+                    <input type="checkbox" name="operation" value="account_operated_by">
+                    Account will be operated by:
+                    <input type="text" name="operator_name">
+                </label><br>
+        
+                <label>
+                    <input type="checkbox" name="operation" value="any_two_operate_with_one">
+                    Any two will operate jointly with any one of the others.
+                </label><br>
+        
+            </div>
+            
+            <div class="form-section">
+                <h2>15. Introduction</h2>
+                <!-- Fill in the input fields and labels here -->
+            </div>
+            <p>Introduction by an existing account holder of LankaBangla Securities Ltd.</p><br><br>
+        
+            <label for="confirmIdentity">
+                <input type="checkbox" id="confirmIdentity" name="confirmIdentity">
+                I confirm the identity, occupation, and address of the applicant(s).
+            </label><br>
+    
+            <label for="introducerName">
+                Introducer Name:
+                <input type="text" id="introducerName" name="introducerName">
+            </label><br>
+    
+            <label for="introducerSignature">
+                Signature of Introducer:
+                <input type="file" id="introducerSignature" name="introducerSignature" accept="application/pdf">
+            </label><br>
+    
+            <label for="accountID">
+                Account ID:
+                <input type="text" id="accountID" name="accountID">
+            </label><br>
+    
+            
+            <button type="submit" class="form-btn">Submit</button>
+        </form>
+    </div>
+</body>
+</html>

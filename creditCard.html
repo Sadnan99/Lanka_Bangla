@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Credit Facility Application</title>
+    <link rel="stylesheet" href="creditCard.css">
+</head>
+<body>
+    <div class="form-container">
+        <h2>Credit Facility Application</h2>
+        <form>
+            <label class="form-label">Client Code:</label>
+            <input type="text" class="form-input" name="clientCode" required><br><br>
+
+            <label class="form-label">Name:</label>
+            <input type="text" class="form-input" name="name" required><br><br>
+
+            <label class="form-label">Code:</label>
+            <input type="text" class="form-input" name="code" required><br><br>
+
+            <label class="form-label">BO:</label>
+            <input type="text" class="form-input" name="bo" required><br><br>
+
+            <label for="officerSignature">Recommended By:</label>
+            <input type="file" id="officerSignature" name="officerSignature" accept="image/*" required>
+            <div class="image-preview" id="officerSignaturePreview"></div>
+
+            <label for="officerSignature">Approved By:</label>
+            <input type="file" id="officerSignature" name="officerSignature" accept="image/*" required>
+            <div class="image-preview" id="officerSignaturePreview"></div>
+
+            <button type="submit" class="form-btn">Submit</button>
+        </form>
+    </div>
+</body>
+</html>
